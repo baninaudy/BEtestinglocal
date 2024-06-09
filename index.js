@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const db = require("./connection")
 const response = require("./response")
 
+app.use;
+
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
